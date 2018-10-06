@@ -3,13 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
-  <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <title>Portfolio | Andriyana</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
  <link rel="stylesheet" type="text/css" href="bootstrap.css"> 
- <!-- <link rel="stylesheet" type="text/css" href="modified.css"> -->
 
 </head>
  
@@ -26,44 +22,64 @@
                    </div>
  </nav>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
+ <div id="main-container" class="container">
+    <section class="main-section"> 
+       <div class="row">
+         <div class="col-12">
+            <h1>Portfolio</h1>
+         </div>
+       </div>
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+      <!-- When I tried implementing rows and columns on this page, 
+        the pictures for some reason did not shift down and instead were 
+        climbing on top of one another. I'm not sure why, so I took out
+        the rows and columns. 
+        <div class="row"> 
+          <div class="col-6"> -->
+           <div class="work">
+              <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+                 <h3>Word Guess</h3>
+           </div>
+      <!-- </div> 
 
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
+           <div class="col-6"> -->
+           <div class="work">
+               <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+                 <h3>RPG Game</h3>
+           </div>
+          <!-- </div>
+           </div> -->
+          
+           <div class="work">
+             <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+               <h3>Trivia Game</h3>
+           </div>
+     
+          <div class="work">
+             <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+               <h3>Rutgers Info Widget</h3>
+          </div>
+      
+           <div class="work">
+              <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+                 <h3>Rock Paper Scissors</h3>
+          </div>
+    
+          
+     
+  
     </section>
 
   </div>
 
   <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
+      <div class="row">
+          <div class="col-12">
+              <div class="container">
+                  Copyright &copy;
+             </div>
+          </div>
+      </div>
   </footer>
 </body>
 
